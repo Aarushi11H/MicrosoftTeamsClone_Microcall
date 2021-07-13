@@ -21,7 +21,7 @@ This is a project developed as a part of Microsoft Engage'21 Mentorship program.
 [Teams Clone Microcall](https://microcall.herokuapp.com/)
 
 # Agile Methodology
-As the theme was Agile Methodology, the project has been completed by using SCRUM method, tasks divided for each week, and Sprints carried out. 
+As the theme was Agile Methodology, the project has been completed by using SCRUM method, tasks divided for each week, and Sprints carried out. A different private repo was made for the earlier commits and this repo is for the final project.
 Testing and debugging was done through Katalon Studio. The project was made using WebRTC, an open-source project and specification that enables real-time media communications like voice, video and data transfer natively between browsers and devices.
 <br/>
 
