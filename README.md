@@ -33,7 +33,7 @@ Testing and debugging was done through Katalon Studio. The project was made usin
 ## **Week 3**
 ![Week 3](www/images/week3.PNG)
 ## **Week 4**
-![Week 4](www/images/week3.PNG)
+![Week 4](www/images/week4.PNG)
 
 # Installation and Running
 1. `npm install` 
