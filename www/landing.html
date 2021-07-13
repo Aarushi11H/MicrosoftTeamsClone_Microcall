@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-3XM60XK9RQ"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-3XM60XK9RQ");
+    </script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>MicroCall</title>
+    <link rel="stylesheet" href="css/landing.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/cards.css" />
+    <link rel="shortcut icon" href="images/logo.png" />
+    <meta
+      name="description"
+      content="Microcall powered by WebRTC, Real-time Simple Secure Fast video calls, chat and screen sharing capabilities in the browser, from your mobile or desktop."
+    />
+    <meta
+      name="keywords"
+      content="webrtc, real-time communications, webrtc stun, webrtc turn, video meeting, video chat, video conference, multi video chat, multi video conference, peer to peer, p2p, zoom"
+    />
+    <!-- https://ogp.me -->
+    <meta property="og:type" content="app-webrtc" />
+    <meta property="og:site_name" content="microcall" />
+    <meta property="og:title" content="Click the link to make a call." />
+    <meta
+      property="og:description"
+      content="microcall calling provides real-time HD quality and latency simply
+      not available with traditional technology."
+    />
+    <meta property="og:image" content="/images/preview.png" />
+    
+  </head>
+  <body class="has-animations">
+    <div class="body-wrap">
+     
+
+
+      <nav>
+        <div class="logo">MicroCall</div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+          <li><a class="active" href="landing.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="https://microcall-chat.herokuapp.com/">Login/Sign Up</a></li>
+        </ul>
+      </nav>
+
+
+
+      <main class="site-content">
+        <section id ="home" class="hero section illustration-section-01">
+          <div class="container">
+            <div class="hero-inner section-inner">
+              <div class="split-wrap invert-mobile">
+                <div class="split-item">
+                  <div
+                    class="hero-content split-item-content center-content-mobile"
+                  >
+                    <h1
+                      class="mt-0 mb-16 reveal-from-bottom"
+                      data-reveal-delay="150"
+                    >
+                      MicroCall<br />Web based real-time video calls.<br />
+                      
+                    </h1>
+                    <p
+                      class="mt-0 mb-32 reveal-from-bottom"
+                      data-reveal-delay="150"
+                    >
+                      Click on Join as Guest to start your own guest meeting without logging in 
+                      or login and get started with additional features!
+                    </p>
+                    <div class="reveal-from-bottom" data-reveal-delay="450">
+                      <a
+                        class="button button-primary button-wide-mobile pulse"
+                        style="
+                          border: 0;
+                          background: linear-gradient(90deg, rgba(0,85,67,1) 42%, rgba(60,186,151,1) 100%);
+                          box-shadow: 5px 10px #888888;
+                        "
+                        href="/newcall"
+                        >Join as Guest</a
+                      >
+                    </div>
+                  </div>
+                  <style>
+                    @media (min-width: 641px) {
+                      .hero .split-wrap .split-item {
+                        min-height: 492px;
+                      }
+                    }
+                  </style>
+                  <div class="hero-inner section-inner">
+                    <h2 class="mt-0 mb-32 reveal-from-bottom"
+                    data-reveal-delay="150"> A Microsoft Teams clone <br>
+                      made for <br> Microsoft Engage'21
+                            
+                  </h2><img class="mt-0 mb-32 reveal-from-bottom"
+                  data-reveal-delay="300" src="https://it.houstonmethodist.org/wp-content/uploads/2020/02/9ec21d9d-754f-4ee3-bd93-3d10b620e7d7.png" alt="Teams – Clone | Houston Methodist" aling="center" style="width: 233px; height: 202.791px; margin: 0px;">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id = "about" class="features-tiles section">
+         
+      <div class="card_container">
+          <div class="card">
+            <div class="imgBx" data-text="Screen Sharing">
+                <img src="images/share.png">
+            </div>
+            <div class="card_content">
+                <div>
+                    <h3 id="card_text">Screen Sharing</h3>
+                    <p id="card_text">Share your screen, files and more. </p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="imgBx" data-text="WebCam Streaming">
+                <img src="images/webcam.png">
+            </div>
+            <div class="card_content">
+                <div>
+                    <h3 id="card_text">WebCam Streaming</h3>
+                    <p id="card_text">Easy, reliable and seamless webcam streaming.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="imgBx" data-text="Chat Room">
+                <img src="images/chat-room.png">
+            </div>
+            <div class="card_content">
+                <div>
+                    <h3 id="card_text">Chat Room</h3>
+                    <p id="card_text">Share links, messages on a live chat room. You can text privately too.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="imgBx" data-text="Stream Recording">
+                <img src="images/rec.png">
+            </div>
+            <div class="card_content">
+                <div>
+                    <h3 id="card_text">Stream Recording</h3>
+                    <p id="card_text">Record the important stuff, so you never miss out the details. </p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+          <div class="imgBx" data-text="Total Privacy">
+              <img src="images/coding.png">
+          </div>
+          <div class="card_content">
+              <div>
+                  <h3 id="card_text">Total Privacy</h3>
+                  <p id="card_text">Through one-to-one encryption you get total privacy! </p>
+              </div>
+          </div>
+      </div>
+      <div class="card">
+        <div class="imgBx" data-text="Maximum Security">
+            <img src="images/shield.png">
+        </div>
+        <div class="card_content">
+            <div>
+                <h3 id="card_text">Maximum Security</h3>
+                <p id="card_text">A promise of a secure connection. </p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+        </section>
+
+        <section class="section">
+          <div class="container">
+            <div class="section-inner has-top-divider">
+              <div class="container-xs">
+                <div class="section-header center-content">
+                  <h2 class="m-0">
+                    Try an easier and secure way of calling.
+                  </h2>
+                </div>
+                <div class="center-content">
+                  <a
+                    class="button button-primary button-wide-mobile pulse"
+                    style="
+                      border: 0;
+                       background: linear-gradient(90deg, rgba(0,85,67,1) 42%, rgba(60,186,151,1) 100%);
+                       box-shadow: 5px 10px #888888;
+                       padding-bottom: 20px;"
+                      );
+                    href="/newcall"
+                    >Join as Guest</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer center-content-mobile">
+        <div class="container">
+          <div class="site-footer-inner">
+            <div
+              class="footer-bottom space-between text-xxs invert-order-desktop"
+            >
+              <nav class="footer-nav">
+                <ul class="list-reset">
+                  <li>
+                    <a href="/privacy">Privacy Policy</a>
+                  </li>
+                </ul>
+              </nav>
+              <div class="footer-copyright">
+                &copy; 2021 MicroCall, all rights reserved
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/landing.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </body>
+</html>

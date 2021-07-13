@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-3XM60XK9RQ"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-3XM60XK9RQ");
+    </script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>MicroCall</title>
+    <link rel="stylesheet" href="css/landing.css" />
+    <link rel="stylesheet" href="css/newcall.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="shortcut icon" href="images/logo.png" />
+    <!-- https://ogp.me -->
+    <meta property="og:type" content="app-webrtc" />
+    <meta property="og:site_name" content="Microcall" />
+    <meta property="og:title" content="Click the link to make a call." />
+    <meta
+      property="og:description"
+      content="Microcall calling provides real-time HD quality and latency simply
+      not available with traditional technology."
+    />
+  </head>
+  <body class="has-animations">
+    <div class="body-wrap">
+
+
+      <nav>
+        <div class="logo">MicroCall</div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+          <li><a  href="/">Home</a></li>
+          <li><a href="/#about">About</a></li>
+          <!--<li><a href="/users/login">Login</a></li>
+          <li><a href="/users/register">Sign Up</a></li>-->
+        </ul>
+      </nav>
+
+
+      <main class="site-content">
+        <section class="hero section illustration-section-01">
+          <div class="container">
+            <div class="hero-inner section-inner">
+              <div class="split-wrap invert-mobile">
+                <div class="split-item">
+                 <!-- <div
+                    class="hero-content split-item-content center-content-mobile"
+                  >
+                    <h1
+                      class="mt-0 mb-16 reveal-from-bottom"
+                      data-reveal-delay="150"
+                    >
+                      Pick or enter name. <br />
+                      And start the conference. <br />
+                      
+                    </h1>
+                    <p
+                      class="mt-0 mb-32 reveal-from-bottom"
+                      data-reveal-delay="300"
+                    >
+                      Each room has its own disposable URL. Just pick a room
+                      name and share your custom URL or enter the room name here.
+                  </div> -->
+                  <style>
+                    @media (min-width: 641px) {
+                      .hero .split-wrap .split-item {
+                        min-height: 2px;
+                      }
+                    }
+                  </style>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="cta section center-content-mobile reveal-from-bottom">
+          <div class="container">
+            <div class="cta-inner section-inner cta-split">
+              <div class="cta-slogan">
+                <h3 class="m-0">
+                  Enter a room name.<br />
+                  We selected a room name for you. <br />
+                  Change it if you wish to! <br />
+                </h3>
+              </div>
+              <div class="cta-action">
+                <div class="mb-24">
+                  <label class="form-label screen-reader" for="roomName"
+                    >microcall</label
+                  >
+                  <div class="form-group-desktop">
+                    <input
+                      class="form-input"
+                      type="text"
+                      id="roomName"
+                      value="microcall"
+                    />
+                    <button
+                      class="button button-primary pulse"
+                      onclick="{window.location.href = '/join/' + document.getElementById('roomName').value}"
+                    >
+                      Join to room
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer center-content-mobile">
+        <div class="container">
+              <div class="footer-copyright" style="font-size: small;">
+                &copy; 2021 MicroCall, all rights reserved
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/landing.js"></script>
+    <script src="js/newroom.js"></script>
+  </body>
+</html>
